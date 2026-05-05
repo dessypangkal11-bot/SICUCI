@@ -27,8 +27,12 @@ export default function Pricing() {
   ];
 
   return (
-    <section id="pricing" className="py-32 bg-blue-50 px-6 lg:px-12">
-      <div className="max-w-7xl mx-auto">
+    <section id="pricing" className="py-32 bg-blue-50 px-6 lg:px-12 relative overflow-hidden">
+      {/* Background Bubble Decorations */}
+      <div className="absolute top-0 right-0 w-64 h-64 bg-blue-100/30 rounded-full blur-3xl -mr-32 -mt-32" />
+      <div className="absolute bottom-0 left-0 w-96 h-96 bg-white/50 rounded-full blur-3xl -ml-48 -mb-48" />
+      
+      <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-24">
           <h2 className="text-[10px] font-black uppercase tracking-[0.4em] text-blue-400 mb-6">Investasi Kebersihan</h2>
           <p className="text-4xl lg:text-6xl font-black text-blue-900 tracking-tighter leading-none mb-4">Pilih Paket <br />Yang Paling Sesuai.</p>
