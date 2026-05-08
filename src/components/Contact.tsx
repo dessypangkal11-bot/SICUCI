@@ -12,7 +12,7 @@ export default function Contact() {
             <div className="space-y-12">
               <div className="flex flex-col">
                 <span className="text-[10px] font-black uppercase tracking-widest text-blue-400 mb-2">Telepon / WhatsApp</span>
-                <span className="text-2xl font-black text-blue-900 tracking-tight">+62 812-3456-7890</span>
+                <span className="text-2xl font-black text-blue-900 tracking-tight">+62 838 4706 3482</span>
               </div>
               
               <div className="flex flex-col">
